@@ -28,3 +28,6 @@ coverage
 *.sw?
 package-lock.json
 package.json
+demo/carbon.png
+demo/searchbar.gif
+demo/searchbar.mov
