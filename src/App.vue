@@ -4,6 +4,18 @@
   <div class="search-box">
     <input type="text" class="search-bar" placeholder="search..."/>
   </div>
+
+  <div class="weather-wrap">
+    <div class="location-box">
+      <div class="location">Dormagen, DE</div>
+      <div class="date">Saturday 25 June 2022</div>
+    </div>
+
+    <div class="weather-box">
+      <div class="temp">9°</div>
+      <div class="weather">Rain</div>
+    </div>
+  </div>
 </main>
   </div>
 
@@ -97,4 +109,50 @@ box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
 background-color: rgba(255,255,255,0.75) ;
 border-radius: 16px 16px 16px 16px;
 }
+
+/* styling location from location box */
+.location-box .location {
+  color: #ffff;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* styling date in from location box */
+.location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+
+}
+.weather-box{
+  text-align: center;
+}
+
+/* temperautre styling */
+.weather-box .temp {
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(0,0,0,0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+  /* rounding the edges of the box */
+  border-radius: 16px;
+  /* spacing between weather box and uppter content */
+  margin: 30px;
+  box-shadow: 3px 6px rgba(0,0,0,0.25)
+}
+
+/* weather status styling */
+.weather-box .weather{
+color: #fff;
+font-size: 48px;
+font-weight: 700;
+text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+}
+
 </style>
